@@ -1,0 +1,470 @@
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+:active,
+:hover,
+:focus {
+    offset: 0 !important;
+    outline-offset: 0;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-weight: 400;
+    font-size: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    padding-top: 4.25rem;
+    padding-bottom: 4.25rem;
+}
+
+.main-btn {
+    display: inline-block;
+    background-color: rgb(152, 233, 152);
+    color: #fff;
+    text-align: center;
+    padding: 0.625rem 1.875rem;
+    border-radius: 25px;
+    text-transform: uppercase;
+    font-size: 0.9375rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.3s ease-in-out;
+}
+
+.main-btn:hover {
+    color: #fff;
+}
+
+
+/* nav css */
+
+.navigation-wrap {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    background-color: #fff;
+    z-index: 1000;
+    transition: 0.3s all ease-in-out;
+    -webkit-transition: 0.3s all ease-in-out;
+}
+
+.header_wrapper .navbar-brand {
+    width: 95px;
+    height: 95px;
+    object-fit: cover;
+}
+
+.navigation-wrap .navbar-nav {
+    margin-left: 3.345rem;
+}
+
+.navigation-wrap .nav-item {
+    padding: 0 0.725rem;
+    transition: all .3s linear;
+}
+
+.navigation-wrap .nav-link {
+    color: #000;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.navigation-wrap.scrolled-on {
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:#fff;
+    position: fixed;
+    box-shadow: 0 0.125rem 1.75rem 1 rgba(0, 0, 0, 0.9);
+    transition: all 0.15s ease-in-out 0s;
+}
+
+.scrolled-on .nav-link {
+    color: #000;
+}
+
+.navigation-wrap .navbar-toggler:focus {
+    box-shadow: none;
+    border: none;
+}
+
+.navigation-wrap .nav-link.active {
+    color: rgb(152, 233, 152);
+}
+
+/* banner css */
+.banner_wrapper {
+    padding-top: 12.675rem;
+    padding-bottom: 4.245rem;
+    background-color: rgb(224, 224, 224);
+}
+
+.banner_wrapper h1 {
+    font-size: 3rem;
+    text-transform: capitalize;
+    line-height: 3.4rem;
+    font-weight: 700;
+}
+
+.banner_wrapper h3 {
+    font-size: 1.23rem;
+    font-weight: 700;
+    color: darkgray;
+    text-transform: capitalize;
+}
+
+.banner_wrapper .main-btn {
+    background-color: rgb(255, 111, 59);
+}
+
+
+.banner2_wrapper h4 {
+    font-size: 1.275rem;
+    padding-top: 1.3rem;
+    text-transform: capitalize;
+    line-height: 1.3rem;
+    font-weight: 800;
+}
+
+.banner2_wrapper p {
+    color: gray;
+    padding-top: 2.145rem;
+    font-weight: 500;
+    font-size: 0.9375rem;
+}
+
+.banner2_wrapper img {
+    width: 5.345rem;
+    height: 5.345rem;
+    object-fit: cover;
+}
+
+
+.banner3_wrapper {
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url("../images/banner3.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    color: #fff;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+}
+
+.banner3_wrapper .row1 h3 {
+    color: #fff;
+    font-size: 2.234rem;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.banner3_wrapper .row1 p {
+    color: #fff;
+}
+
+.banner3_wrapper .row2 {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    border: 1px solid #fff;
+    box-shadow: 0 0.125rem 1.75rem 0 rgb(0, 0, 0, 0.09);
+    color: #000;
+}
+
+.banner3_wrapper .row2 h3 {
+    text-transform: capitalize;
+    font-size: 1.234rem;
+    padding-top: 0.5rem;
+}
+
+.banner3_wrapper .row2 p {
+    font-size: 0.8765rem;
+    color: darkgray;
+    font-weight: 500;
+}
+
+.banner3_wrapper .row2 .col-2 {
+    margin-bottom: 2rem;
+}
+
+/* banner4 */
+
+.banner4_wrapper {
+    color: #000;
+    height: 100%;
+    width: 100%;
+}
+
+.banner4_wrapper h2 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 2.143rem;
+}
+
+.banner4_wrapper .card {
+    width: 340px;
+    max-width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    margin-left: .5rem;
+}
+
+.banner4_wrapper .card-body .card-title {
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+.banner4_wrapper .card-body .btn {
+    font-size: .7465rem;
+}
+
+.banner4_wrapper .card-body .oneYear {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: orange;
+}
+
+.banner4_wrapper .card-body span {
+    font-weight: 800;
+    font-size: 2.145rem;
+}
+
+.banner4_wrapper .card-body p {
+    margin: 0;
+}
+
+.banner4_wrapper .card-body .lastBtn {
+    background-color: rgb(241, 159, 6);
+}
+
+.banner4_wrapper .card-body .para2 {
+    padding-top: 1rem;
+}
+
+.banner4_wrapper .text-content h3 {
+    font-size: 1.132rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
+    color: rgb(85, 85, 85);
+}
+
+.banner4_wrapper .lists ul li {
+    font-size: 1rem;
+    line-height: 32px;
+    color: rgb(83, 81, 81);
+    position: relative;
+    margin-left: 30px;
+}
+
+.banner4_wrapper .lists ul li::before {
+    position: absolute;
+    left: -2.1475rem;
+    color: rgb(241, 159, 6);
+    font-size: 1.25rem;
+    font-family: "Font Awesome 5 Free";
+    content: '\f00c';
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+}
+
+/* banner 5 */
+
+.banner5_wrapper .userName {
+    font-size: 1.023rem;
+    font-weight: 700;
+}
+
+.banner5_wrapper h5 {
+    font-size: .7567rem;
+    color: rgb(148, 146, 146);
+    font-weight: 500;
+}
+
+.banner5_wrapper p {
+    font-size: .6067rem;
+    color: rgb(105, 103, 103);
+    font-weight: 400;
+}
+
+.banner5_wrapper .text-content .star-icons {
+    margin-left: 1.235rem;
+    font-size: .5rem;
+    color: rgb(255, 153, 0);
+    margin-bottom: .2rem;
+    text-align: center;
+}
+
+/* banner 6 */
+
+.banner6_wrapper .text-content{
+    max-width: 75%;
+    width: 100%;
+}
+.banner6_wrapper h3{
+    font-weight: 700;
+    font-size: 2.014rem;
+}
+.banner6_wrapper p{
+    font-weight: 600;
+}
+.banner6_wrapper .download-button .google{
+    margin-right: .5rem;
+}
+.banner6_wrapper .download-button img{
+   width: 160px;
+   height: 160px;
+   object-fit: cover;
+}
+
+/* banner 7 */
+
+.banner7_wrapper{
+    background-color: rgb(250, 247, 247);
+}
+.banner7_wrapper .link-list li{
+    color: rgb(114, 114, 114);
+    font-size: 1.012rem;
+    padding-left: 1.5rem;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+}
+.banner7_wrapper .link-list li::before{
+    content: "\f105";
+    color:rgb(248, 101, 15);
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position: absolute;
+    top: 50%;
+    left:  0.3rem;
+    transform: translateY(-50%);
+}
+
+
+/* contact section */
+.footer_wrapper{
+    background-color: rgb(27, 26, 26);
+    padding-bottom: 0rem;
+    padding-top: 3rem;
+}
+
+.footer_wrapper h5{
+    color:rgb(182, 175, 175);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+.footer_wrapper .company_details{
+    font-size: .9375rem;
+    color:gray;
+}
+.footer_wrapper .contact-info li a{
+    font-size: .8786rem;
+    color:gray;
+}
+.footer_wrapper .contact-info li a i{
+    color:#fff;
+}
+.footer_wrapper .social-network a{
+    height: .5rem;
+    width: .5rem;
+    line-height: .6rem;
+    margin: 0.5rem;
+    font-size: .8675rem;
+    display: inline-block;
+    border: 0.125rem solid var(--text-gray);
+    color: gray;
+    text-align: center;
+    border-radius: 100%;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.footer_wrapper .text-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.footer_wrapper .text-content .picture img{
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+.footer_wrapper .text-content .content span,
+.footer_wrapper .text-content .content p{
+    color:gray;
+    font-size: 0.787rem;
+    font-weight: 500;
+    padding-left: 1.34rem;
+}
+.footer_wrapper .text-content .content h3{
+    font-size: 1.1rem;
+    font-weight: 700;
+    color:gray;
+    padding-left: 1.34rem;
+}
+
+.footer_wrapper .form-group{
+    color:var(--text-white);
+    font-size: .8786rem;
+}
+
+.footer_wrapper .form-group .btn{
+    background-color: rgb(221, 74, 21);
+    border-radius: 0;
+}
+.footer_wrapper .form-group:focus{
+    outline: none;
+    box-shadow: none;
+    border-color: gray;
+}
+.footer_wrapper .form-group span{
+    color:gray;
+    font-weight: 500;
+    padding-left: 1rem;
+}
+.footer_wrapper .copyright-section{
+    background-color:rgb(27, 26, 26);
+    margin-top: 3rem;
+    text-align: center;
+}
+.footer_wrapper .copyright-section p{
+    margin-top: 0;
+    line-height: 0;
+    padding: 3rem 0;
+    color:gray;
+}
+.footer_wrapper .copyright-section a{
+    color:gray ;
+    font-weight: 600;
+}

@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project: 1</title>
+
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar">
+    <!-- navbar -->
+
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg navigation-wrap fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./images/logo.png" alt="logo" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <!-- <span class="navbar-toggler-icon"></span> -->
+                    <i class="fa-solid fa-bars-staggered navbar-toggler-icon"></i>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">WHMCS</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#pages" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Pages
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#blogs" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Blogs
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                    <ul class="d-flex list-unstyled lists-2 align-items-center">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#account" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                My Account
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <button class="btn main-btn" type="submit">Try it free</button>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- banner -->
+
+    <section class="banner_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-7 text-center text-lg-start order-lg-1 order-2">
+                    <h1>world's best VPN service provider in 2018</h1>
+                    <h3>Start your business with award winning company</h3>
+                    <a href="#" class="btn main-btn mt-4">learn more</a>
+
+                </div>
+                <div class="col-lg-5 text-center order-lg-2 order-1">
+                    <img src="./images/banner-img.png" alt="banner-img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner2_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                    <img src="./images/clock.png" alt="clock" class="img-fluid">
+                    <h4>fast VPN without third parties</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quae quisquam sapiente.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                    <img src="./images/green-clock.png" alt="clock" class="img-fluid">
+                    <h4>24/7/365 Technical Support</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quae quisquam sapiente.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+                    <img src="./images/dollar.png" alt="dollar" class="img-fluid">
+                    <h4>30 days money back guarantee</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto, quae quisquam sapiente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner3_wrapper">
+        <div class="container my-container">
+            <div class="row align-items-center py-4 row1">
+                <div class="col-12 text-center">
+                    <h3>why you need our service</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br> Blanditiis sed beatae molestiae
+                        fuga
+                        laboriosam unde deserunt ex.</p>
+                </div>
+            </div>
+
+            <div class="row align-items-center py-5 row2">
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/lock.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>ensure privacy security</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/speed.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>streaming access and speed</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/all device.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>VPN for all device</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/encrypted.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>fully encrypted internet</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/multiple-network.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>multiple vpn network</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/mallicious-content (1).png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>block mallicious content</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/mallicious-content (2).png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>unlimited bandwidth</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/free-trial.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>7 days free trial</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/access restricted.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>access restricted website</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/user-friendly.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>user friendly settings</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/team.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>expert support team</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 text-lg-start text-center col-2">
+                    <img src="./images/moneyback.png" alt="clock" class="img-fluid" style="width: 50px;">
+                    <h3>money back gurantee</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit adipisicing.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner4_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 py-5 text-lg-start text-center">
+                    <h2>choose your pricing plan</h2>
+                    <p class="text-center text-lg-start para-1">Lorem, ipsum dolor sit amet consectetur adipisicing
+                        elit.<br>
+                        Soluta nihil alias quisquam!
+                        Provident sunt explicabo doloribus.</p>
+                </div>
+            </div>
+            <div class="row align-items-center d-flex align-items-center">
+                <div class="col-lg-5 col-12 mb-5 mb-lg-0 text-lg-start text-center order-2 order-lg-1">
+                    <div class="text-content py-4 py-lg-0">
+                        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, debitis.</h3>
+                    </div>
+                    <div class="lists">
+                        <ul class="list-unstyled py-3 py-lg-0">
+                            <li>No Logs Policy</li>
+                            <li>Onion Over VPN</li>
+                            <li>Easy to use</li>
+                            <li>Global Network</li>
+                            <li>Friendly customer support</li>
+                            <li>Unlimited Bandwidth</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-7 col-12 order-1 order-lg-2 d-flex justify-content-between">
+                    <div class="card text-center align-items-center">
+                        <img src="./images/green-clock.png" alt="clock" class="img-fluid" style="width: 40px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Enterprise</h5>
+                            <p class="oneYear">one year plan</p>
+                            <span>$7.49 /m</span>
+                            <p class="para2">Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn main-btn lastBtn mt-4">Get this plan</a>
+                        </div>
+                    </div>
+
+                    <div class="card text-center align-items-center">
+                        <img src="./images/green-clock.png" alt="clock" class="img-fluid" style="width: 40px;">
+                        <div class="card-body pt-3">
+                            <h5 class="card-title">Standard</h5>
+                            <p class="oneYear">one year plan</p>
+                            <span>$7.49 /m</span>
+                            <p class="para2">Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn main-btn centerBtn mt-4">Get this plan</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card text-center align-items-center">
+                        <img src="./images/green-clock.png" alt="clock" class="img-fluid" style="width: 40px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Startup</h5>
+                            <p class="oneYear">one year plan</p>
+                            <span>$7.49 /m</span>
+                            <p class="para2">Lorem ipsum dolor sit.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <a href="#" class="btn main-btn lastBtn mt-4">Get this plan</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner5_wrapper">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 text-center text-black text-capitalize py-5">
+                    <h3>what client's say about us</h3>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-4 col-md-6 col-12 text-lg-start text-center">
+                    <div class="card border-0 py-3 px-3 ml-lg-0 ml-3 mb-3 mb-lg-0">
+                        <div class="text-content d-flex align-items-center">
+                            <h4 class="card-title text-black text-capitalize userName">marsha c. mayer</h4>
+                            <div class="star-icons text-lg-start text-center">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+
+                        <h5 class="mb-4 text-start">Melbourne, Australia</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae corrupti inventore
+                            alias at quasi nulla vero, nostrum officia odit consectetur fugit excepturi suscipit.
+                            Obcaecati ducimus excepturi at suscipit blanditiis consequatur velit dolores quidem nihil!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-lg-start text-center">
+                    <div class="card border-0 py-3 px-3 ml-lg-0 ml-3 mb-3 mb-lg-0">
+                        <div class="text-content d-flex align-items-center">
+                            <h4 class="card-title text-black text-capitalize userName">Bns h. jabed</h4>
+                            <div class="star-icons text-lg-start text-center">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <h5 class="mb-4 text-start">Dhaka, Bangladesh</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae corrupti inventore
+                            alias at quasi nulla vero, nostrum officia odit consectetur fugit excepturi suscipit.
+                            Obcaecati ducimus excepturi at suscipit blanditiis consequatur velit dolores quidem nihil!
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 text-lg-start text-center">
+                    <div class="card border-0 py-3 px-3 ml-lg-0 ml-3 mb-3 mb-lg-0">
+                        <div class="text-content d-flex align-items-center">
+                            <h4 class="card-title text-black text-capitalize userName">cathy s. knight</h4>
+                            <div class="star-icons text-lg-start text-center">
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                                <span><i class="fa-solid fa-star"></i></span>
+                            </div>
+                        </div>
+                        <h5 class="mb-4 text-start">California, United States</h5>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam recusandae corrupti inventore
+                            alias at quasi nulla vero, nostrum officia odit consectetur fugit excepturi suscipit.
+                            Obcaecati ducimus excepturi at suscipit blanditiis consequatur velit dolores quidem nihil!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="banner6_wrapper">
+        <div class="container">
+            <div class="row align-items-center py-2">
+                <div class="col-lg-5 col-12 order-1 text-center order-lg-1 pb-3">
+                    <img src="./images/banner6.png" alt="banner6-img" class="img-fluid">
+                </div>
+                <div class="col-lg-7 col-12 text-center text-lg-start order-2 order-lg-2">
+                    <div class="text-content ms-3">
+                        <h3 class="text-black text-capitalize pb-4">download your application</h3>
+                        <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum molestiae
+                            ipsam quo tempora itaque possimus nostrum aperiam pariatur repellat nihil excepturi
+                            obcaecati ipsa, totam eos.</p>
+
+                        <div class="download-button">
+                            <img src="./images/google-play.png" alt="google-play-store" class="img-fluid google">
+                            <img src="./images/apple-store.png" alt="apple-store" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="banner7_wrapper">
+        <div class="container">
+            <div class="row align-items-center py-3">
+                <div class="col-lg-5 col-12 text-lg-start text-center order-2 order-lg-1">
+                    <h3 class="text-black text-capitalize fw-bolder fs-2 py-4 mb-2">865 server in 97 country</h3>
+                    <p class="text-muted fw-bold mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+                        corrupti quo totam, odit nulla excepturi voluptatibus.</p>
+                    <div class="text-content d-flex align-items-center justify-content-between">
+                        <ul class="list-unstyled py-3 link-list">
+                            <li>North America (201)</li>
+                            <li>Europe (86)</li>
+                            <li> Asia(21)</li>
+                        </ul>
+                        <ul class="list-unstyled py-3 link-list">
+                            <li>South America(301)</li>
+                            <li>Australia/Oceania (201)</li>
+                            <li>Africa (201)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-12 text-center order-1 order-lg-2 mb-4 mb-lg-0">
+                    <img src="./images/google-map.png" alt="google-map" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="banner8_wrapper"></section> -->
+
+
+    <!-- footer section start -->
+    <section class="footer_wrapper mt-3 mt-md-0">
+        <div class="container px-3 px-lg-0">
+            <div class="row">
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>About Us</h5>
+                    <p class="mb-4 ps-0 company_details">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Dolorum optio illum ipsa nemo maiores. Nostrum tempora ad blanditiis sint ut, delectus beatae
+                        aliquid itaque adipisci!</p>
+                    <div class="contact-info">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><i class="fa-solid fa-phone me-3"></i>+1 222 3333</a></li>
+                            <li><a href="#"><i class="fa-solid fa-envelope me-3"></i>info@example.com</a></li>
+                            <li><a href="#"><i class="fa-solid fa-location-dot me-3"></i> No. 96, South City, London</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <ul class="social-network d-flex align-items-center pt-4 list-unstyled">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Latest News/Blogs</h5>
+                    <div class="text-content">
+                        <div class="picture">
+                            <img src="./images/house2.jpg" alt="clock" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <span class=" text-capitalize">posted on Jan 15, 2023</span>
+                            <h3 class=" text-capitalize ">in major hiring push web hosting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, cumque!</p>
+                        </div>
+                    </div>
+                    <hr style="color:gray">
+                    <div class="text-content">
+                        <div class="picture">
+                            <img src="./images/interior.jpg" alt="clock" class="img-fluid">
+                        </div>
+                        <div class="content">
+                            <span class=" text-capitalize">posted on Jan 15, 2023</span>
+                            <h3 class=" text-capitalize ">in major hiring push web hosting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, cumque!</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                    <h5>Newsletter</h5>
+                    <p style="color: gray;" class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio,
+                        consequuntur!</p>
+                    <div class="form-group mb-4">
+                        <input type="email" class="form-control bg-transparent" placeholder="Eter Your Email">
+                        <button type="submit" class=" btn main-btn mt-3">Submit</button>
+                        <div class="span-class text-lg-start text-center py-3">
+                            <span class="text-capitalize">Don't worry <br class="d-lg-none d-block">email won't be
+                                shared</span>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid copyright-section">
+            <p>© Copyright 2018 <a href="#"> VPNNET.com</a> All Rights Reserved</p>
+        </div>
+    </section>
+    <!-- footer scetion ends -->
+
+
+
+
+
+    <!-- bootstrap cdn -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+        </script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>

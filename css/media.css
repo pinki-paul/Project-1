@@ -1,0 +1,128 @@
+@media(max-width:1034px) {
+    .banner4_wrapper .card-body p {
+        font-size: .8rem;
+        margin: 0;
+    }
+
+    .banner4_wrapper .card-body .lastBtn,
+    .banner4_wrapper .card-body .centerBtn {
+        font-size: 7px;  
+    }
+
+    .header_wrapper .navigation-wrap .lists-2 button{
+        padding: 0.625rem 1.235rem;
+    }
+}
+
+
+@media(max-width:991px) {
+
+    /* nav design */
+    .scrolled-on {
+        height: auto;
+    }
+
+    .header_wrapper .navbar-brand {
+        width: 65px;
+        height: 65px;
+        object-fit: cover;
+    }
+    .header_wrapper .navigation-wrap .lists-2{
+       margin-left: 2rem;
+    }
+    .navigation-wrap .navbar-collapse {
+        background-color: #fff;
+        text-align: left;
+    }
+
+    .banner4_wrapper .card-body .card-title {
+        font-size: 1.12rem;
+        letter-spacing: 1px;
+    }
+
+    .banner4_wrapper .card-body span {
+        font-size: 1.3465rem;
+    }
+
+    .banner4_wrapper .card-body .btn {
+        font-size: .565rem;
+    }
+
+    .banner4_wrapper .card-body p {
+        font-size: .5rem;
+        margin: 0;
+    }
+
+    .banner6_wrapper .text-content{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:767px) {
+    .banner_wrapper h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        margin-top: 1rem;
+    }
+
+    .banner_wrapper {
+        padding-top: 7.765rem;
+        margin-bottom: 1.24rem;
+    }
+
+    .banner4_wrapper .card-body .btn {
+        font-size: .365rem;
+        text-align: center;
+    }
+
+    .banner6_wrapper .text-content{
+        max-width: 100%;
+        text-align: center;
+    }
+}
+
+@media(max-width:580px) {
+    .banner4_wrapper .card-body .btn {
+        font-size: 3px;
+    }
+
+    .banner4_wrapper .card-body span {
+        font-size: .6465rem;
+    }
+
+    .banner4_wrapper .card-body p {
+        font-size: .2rem;
+        margin: 0;
+    }
+
+    .banner4_wrapper .card-body .lastBtn,
+    .banner4_wrapper .card-body .centerBtn {
+   
+        font-size: 5px;
+    }
+}
+
+@media(max-width:380px) {
+
+    .banner_wrapper h1{
+        font-size: 2.145rem;
+        line-height: 2.4rem;
+    }
+
+    .banner4_wrapper .card-body .card-title {
+        font-size: 7px;
+    }
+
+    .banner4_wrapper .card-body .lastBtn,
+    .banner4_wrapper .card-body .centerBtn {
+        font-size: 3px;
+       
+    }
+
+    .banner6_wrapper .download-button img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+    }
+}
